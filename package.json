@@ -1,32 +1,28 @@
 {
-  "name": "wechat-app-mall",
-  "version": "8.4.0",
-  "description": "删除 <float-menu />",
+  "name": "wechat-shop-demo",
+  "version": "0.0.0",
+  "description": "微信小程序商城",
   "main": "app.js",
   "dependencies": {
-    "@vant/weapp": "^1.11.6",
-    "apifm-wxapi": "^24.06.19",
-    "dayjs": "^1.11.6",
-    "mp-html": "^2.3.1",
-    "wxa-plugin-canvas": "^1.1.12",
-    "wxbarcode": "^1.0.2"
+    "@vant/weapp": "^1.11.6", //Vant Weapp 组件库
+    "apifm-wxapi": "^24.06.19", //API接口封装库
+    "dayjs": "^1.11.6", //处理日期时间格式化、计算和显示
+    "mp-html": "^2.3.1", //在小程序中渲染HTML内容
+    "wxa-plugin-canvas": "^1.1.12", //提供强大的Canvas绘图能力，支持生成分享海报
+    "wxbarcode": "^1.0.2" //生成各种格式的条码和二维码
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EastWorld/wechat-app-mall.git"
+    "url": "git+https://github.com/Xintong120/Wechat-shop-demo"
   },
   "keywords": [
     "微店",
     "小店",
     "微商城"
   ],
-  "author": "gooking",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EastWorld/wechat-app-mall/issues"
-  },
-  "homepage": "https://github.com/EastWorld/wechat-app-mall#readme"
+  "author": "Victoria Liu",
+  "license": "ISC"
 }
