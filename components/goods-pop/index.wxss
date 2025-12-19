@@ -1,21 +1,30 @@
-.sku-container {
+/* 商品SKU选择器 - 规格选择区域 */
+.product-selector__specs {
   box-sizing: border-box;
   width: 100vw;
   padding: 32rpx 32rpx 0 32rpx;
 }
-.sku-container .sku {
+
+/* 商品SKU选择器 - 单个规格项 */
+.product-selector__specs .product-selector__spec-item {
   border-bottom: 1rpx solid #eee;
   padding-bottom: 24rpx;
   margin-bottom: 16rpx;
 }
-.sku-container .sku .t {
+
+/* 商品SKU选择器 - 规格标签 */
+.product-selector__specs .product-selector__spec-item .product-selector__spec-label {
   color: #333;
 }
-.sku-container .sku .items {
+
+/* 商品SKU选择器 - 规格选项列表 */
+.product-selector__specs .product-selector__spec-item .product-selector__spec-options {
   display: flex;
   flex-wrap: wrap;
 }
-.sku-container .sku .items text {
+
+/* 商品SKU选择器 - 单个规格选项 */
+.product-selector__specs .product-selector__spec-item .product-selector__spec-options text {
   padding: 8rpx 16rpx;
   border: 1rpx solid #eee;
   color: #666;
@@ -23,19 +32,27 @@
   font-size: 26rpx;
   border-radius: 8rpx;
 }
-.sku-container .sku .items text.active {
+
+/* 商品SKU选择器 - 规格选项选中状态 */
+.product-selector__specs .product-selector__spec-item .product-selector__spec-options text.active {
   border: 1rpx solid #e64340;
   color: #e64340;
 }
-.sku-container .num {
+
+/* 商品SKU选择器 - 数量选择区域 */
+.product-selector__specs .product-selector__quantity {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 24rpx;
 }
-.sku-container .num .t {
+
+/* 商品SKU选择器 - 数量选择标签 */
+.product-selector__specs .product-selector__quantity .product-selector__spec-label {
   color: #333;
 }
-.btn {
+
+/* 商品SKU选择器 - 操作按钮区域 */
+.product-selector__actions {
   padding: 32rpx;
 }

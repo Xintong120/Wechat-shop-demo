@@ -1,17 +1,24 @@
+/* 用户信息设置弹窗 - 主容器 */
 .btn-add-box-popup {
   width: 600rpx;
 }
-.t-box {
+
+/* 用户信息设置弹窗 - 头部区域 */
+.profile-modal__header {
   margin-top: 32rpx;
   height: 100rpx;
   position: relative;
 }
-.t {
+
+/* 用户信息设置弹窗 - 标题 */
+.profile-modal__title {
   line-height: 100rpx;
   font-size: 32rpx;
   text-align: center;
 }
-.jump {
+
+/* 用户信息设置弹窗 - 跳过按钮 */
+.profile-modal__skip {
   position: absolute;
   top: 0;
   right: 48rpx;
@@ -19,27 +26,34 @@
   font-size: 28rpx;
   color: #bbb;
 }
-.avatar {
+
+/* 用户信息设置弹窗 - 头像选择区域 */
+.profile-modal__avatar-section {
+  /* 容器样式 */
+}
+
+/* 用户信息设置弹窗 - 头像选择按钮 */
+.profile-modal__avatar-button {
   margin-top: 32rpx;
   width: 240rpx;
   height: 240rpx;
   padding: 0;
   border-radius: 50%;
 }
-.avatar-img {
+
+/* 用户信息设置弹窗 - 头像图片 */
+.profile-modal__avatar-image {
   width: 240rpx;
   height: 240rpx;
 }
-.nick-box {
-  padding: 32rpx 0;
-}
-.btn-group {
-  padding: 32rpx;
-}
-.abc-box {
+
+/* 用户信息设置弹窗 - 头像容器 */
+.profile-modal__avatar-container {
   position: relative;
 }
-.abc-box .trip {
+
+/* 用户信息设置弹窗 - 头像提示文字 */
+.profile-modal__avatar-container .profile-modal__avatar-tip {
   position: absolute;
   width: 100%;
   bottom: 32rpx;
@@ -47,4 +61,14 @@
   font-size: 24rpx;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
+}
+
+/* 用户信息设置弹窗 - 昵称输入区域 */
+.profile-modal__nickname-section {
+  padding: 32rpx 0;
+}
+
+/* 用户信息设置弹窗 - 操作按钮区域 */
+.profile-modal__actions {
+  padding: 32rpx;
 }

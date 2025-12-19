@@ -5,9 +5,9 @@
   closeable
   bind:close="close"
 >
-  <view class="pop-main">
-    <view class="title">{{ remark }}</view>
-    <view class="amount"><text>￥</text>{{ money }}</view>
+  <view class="payment-modal__content">
+    <view class="payment-modal__title">{{ remark }}</view>
+    <view class="payment-modal__amount"><text>￥</text>{{ money }}</view>
     <van-divider contentPosition="center">选择支付方式</van-divider>
     <van-radio-group value="{{ payType }}" bind:change="payTypeChange">
       <van-cell-group>
@@ -20,11 +20,11 @@
       </van-cell-group>
     </van-radio-group>
     <block wx:if="{{ alipayQrcode }}">
-      <image src="{{ alipayQrcode }}" mode="widthFix" class="alipayQrcode" show-menu-by-longpress></image>
-      <view class="alipayQrcodeText">长按图片保存，然后使用支付宝扫一扫付款</view>
+      <image src="{{ alipayQrcode }}" mode="widthFix" class="payment-modal__qrcode" show-menu-by-longpress></image>
+      <view class="payment-modal__qrcode-tip">长按图片保存，然后使用支付宝扫一扫付款</view>
     </block>
-    
-    <view wx:if="{{ !alipayQrcode }}" class="btn-box">
+
+    <view wx:if="{{ !alipayQrcode }}" class="payment-modal__actions">
       <van-button type="primary" block round bind:click="submit">立即支付</van-button>
     </view>
   </view>

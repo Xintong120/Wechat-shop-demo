@@ -1,30 +1,43 @@
-.pop-main {
+/* 支付弹窗 - 主内容区域 */
+.payment-modal__content {
   display: flex;
   flex-direction: column;
 }
-.title {
+
+/* 支付弹窗 - 标题区域 */
+.payment-modal__title {
   padding: 32rpx;
   text-align: center;
 }
-.btn-box {
+
+/* 支付弹窗 - 操作按钮区域 */
+.payment-modal__actions {
   padding: 32rpx;
 }
-.alipayQrcode {
+
+/* 支付弹窗 - 二维码图片 */
+.payment-modal__qrcode {
   margin-left: 50rpx;
 }
-.alipayQrcodeText {
+
+/* 支付弹窗 - 二维码提示文字 */
+.payment-modal__qrcode-tip {
   text-align: center;
   color: rgb(201, 25, 48);
   font-size: 24rpx;
 }
-.amount {
+
+/* 支付弹窗 - 支付金额显示 */
+.payment-modal__amount {
   padding: 16rpx;
   text-align: center;
   color: #e64340;
   font-weight: bold;
   font-size: 52rpx;
 }
-.amount text {
+
+/* 支付弹窗 - 金额中的货币符号 */
+.payment-modal__amount text {
   font-weight: normal;
   font-size: 28rpx;
 }
