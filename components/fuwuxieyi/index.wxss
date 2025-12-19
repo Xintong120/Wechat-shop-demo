@@ -1,32 +1,33 @@
-.btn-add-box-popup .t {
+/* 协议弹窗样式 */
+.protocol-popup .protocol-title {
   font-size: 36rpx;
   text-align: center;
   height: 88rpx;
   line-height: 88rpx;
   font-weight: bold;
 }
-.btn-add-box-popup .bd {
-  padding: 0 32rpx;
-  padding-bottom: 32rpx;
-}
-.btn-add-box-popup .del-btn {
-  margin-top: 32rpx;
+
+/* 协议内容区域样式 */
+.protocol-content {
+  width: 600rpx;
+  padding: 32rpx;
+  font-size: 32rpx;
+  line-height: 54rpx;
 }
 
-.content {
-	width: 600rpx;
-	padding: 32rpx;
-	font-size: 32rpx;
-	line-height: 54rpx;
+/* 协议链接样式 */
+.protocol-link {
+  color: #10AEFF;
 }
-.link {
-	color: #10AEFF;
-}
-.btn-group {
+
+/* 协议操作按钮组样式 */
+.protocol-actions {
   padding: 32rpx;
   display: flex;
   justify-content: space-around;
 }
+
+/* 工具类：顶部边距 */
 .mt32 {
-	margin-top: 32rpx;
+  margin-top: 32rpx;
 }
